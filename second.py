@@ -67,6 +67,6 @@ try:
             iolder70 += 1
 
     wb.save('secondFile.xlsx')
-    print("XLSX файл успішно створено у файлі 'secondFile.xlsx'.")
+    print("файл під назвою 'secondFile.xlsx' успішно створено")
 except Exception as e:
     print(f"Помилка: {str(e)}")
