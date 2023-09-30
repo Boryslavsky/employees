@@ -45,4 +45,4 @@ with open('formatted_employees.csv', mode='w', newline='', encoding='utf-8-sig')
     writer.writerow(["Прізвище", "Ім’я", "По батькові", "Стать", "Дата народження", "Посада", "Місто проживання", "Адреса проживання", "Телефон", "Email"])
     writer.writerows(data)
 
-print("CSV файл успішно створено у файлі 'formatted_employees.csv'.")
+print("файл під назвою 'formatted_employees.csv' успішно створено")
